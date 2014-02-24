@@ -18,6 +18,7 @@ Then /^I buy "([^\"]*)" (\d+) times (\d+) buy$/ do |btid, cnt, cnt1|
           performAction('press_button_with_text',"Product")
           wait_for_elements_exist( ["button text:'OK'"], :timeout => 6)
           performAction('click_on_text',"SO WINE")
+          performAction('wait', 1)
           checks = query("checkbox")
           performAction('toggle_numbered_checkbox', rand(checks.size))
           performAction('press_button_with_text', "OK")

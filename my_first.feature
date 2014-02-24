@@ -11,7 +11,7 @@ Feature: Activities feature
     Then I random press "EmpName"
     Then I Login
     Then I wait for 2 seconds
-    Then I buy "tvSKProdName" 8 times 12 buy
+    Then I buy "tvSKProdName" 8 times 1 buy
 
     Then I go back
     Then I wait to see "Activities"
@@ -22,7 +22,7 @@ Feature: Activities feature
     Then I random press "EmpName"
     Then I Login
     Then I wait for 2 seconds
-    Then I buy "tvSKProdName" 8 times 12 buy
+    Then I buy "tvSKProdName" 8 times 1 buy
 
     Then I go back
     Then I wait to see "Activities"
@@ -33,5 +33,5 @@ Feature: Activities feature
     Then I random press "EmpName"
     Then I Login
     Then I wait for 2 seconds
-    Then I buy "tvSKProdName" 8 times 12 buy
+    Then I buy "tvSKProdName" 8 times 1 buy
  
